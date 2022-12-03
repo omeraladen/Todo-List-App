@@ -1,0 +1,36 @@
+form{
+    margin:.5rem ;
+    display: flex;
+    align-items: center;
+
+    button{
+        max-height: 48px;
+        max-width: 48px;
+        border-radius: .25rem;
+        padding:.5rem ;
+        font-size: 1rem;
+        background: aliceblue;
+        color: mediumblue;
+        margin-left: 2px;
+        cursor: pointer;
+    }
+    button:focus,
+    button:hover{
+        color: #000;
+        background: yellow;
+        outline: none;
+    }
+    input {
+        width: calc(100% - 60px);
+        height: 1.1rem;
+        padding: .5rem;
+        outline: none;
+        flex-grow: 1;
+
+        
+    }
+    ::placeholder {
+        font-size: 17px;
+        color: gray;
+      }
+}
